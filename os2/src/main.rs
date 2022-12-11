@@ -39,4 +39,4 @@ pub fn rust_main() -> ! {
     trap::init();
     batch::init();
     batch::run_next_app();
-}
+}                          
