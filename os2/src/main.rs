@@ -5,6 +5,8 @@
 #[macro_use]
 extern crate log;
 
+
+
 #[macro_use]
 mod console;
 mod batch;
@@ -37,4 +39,4 @@ pub fn rust_main() -> ! {
     trap::init();
     batch::init();
     batch::run_next_app();
-}
+}                          
